@@ -1,0 +1,50 @@
+.foot{
+    background-color: rgb(0, 0, 29);
+    color:white;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 5rem;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+  
+    gap: 1.5rem;
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    padding-right: 4rem;
+    margin-top: 3rem;
+}
+.footer__header{
+    font-size: 1.3rem;
+    line-height: 20px;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+.contact__footer{
+    display: flex;
+    flex-direction: row;
+}
+.footer__icon{
+    margin: 1rem;
+}
+.footer__p{
+    margin: 0.6rem 1rem;
+}
+.contact__footer a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.contact__footer a:visited{
+    color: white;
+}
+.footer_social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}

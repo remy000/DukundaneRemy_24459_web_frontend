@@ -1,0 +1,80 @@
+.about{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2.5rem;
+    margin-top: 2rem;
+    background-color: rgb(226, 226, 248);
+}
+.about__header{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5rem auto 0.7rem;
+
+}
+.about__p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+.about__home{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 3rem;
+}
+.about__card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:  10px 10px 10px rgba(39, 39, 39, 0.1);
+}
+.about__icon{
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    margin-left: 8rem;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.about__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: circle(50% at center);
+    color:rgb(0, 0, 43);
+}
+.about__content{
+    text-align: center;
+    margin-top: 1rem;
+}
+.content__header{
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+}
+.content__p{
+    font-size: 0.5rem;
+    color: gray;
+    max-width: 80%;
+    text-align: center;
+}
+.about__content p{
+    color: gray;
+    margin-top: 1.4rem;
+    font-size: 1rem;
+    max-width: 70%;
+   margin-left: 3rem;
+}
+.images{
+    width: 70%;
+    height: 70%;
+    margin-top: 1rem;
+}

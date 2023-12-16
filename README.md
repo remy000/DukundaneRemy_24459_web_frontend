@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+Real Estate Frontend
+Description
+This repository contains the frontend code for a Real Estate web application. It offers functionalities related to managing and browsing property listings.
+it contains two side a user side and admin side, a user can signup and make login to access houses page where he can make search based on location and he can find different houses in that location
+also he can filter houses based on what house he want either houses for sale or rent! when he make his own choice the system redirect him to booking page where he can book a house of his choices,
+for Admin side, an admin when he logs in he will see an admin dashboard including statistics with different statistics graphs like piechart and histogram also total number of houses,users and bookings made by users
+also he will have user interface for adding new houses,update and delete houses and display all houses also same for users and booking. a reminder this is frontend codes as i have backend on other side which works with 
+frontend to perform full functionality of this app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Property Listings: Browse available properties based on various criteria.
+User Authentication: Secure login and registration for users.
+Property Upload: Admin-exclusive feature to add new properties to the platform.
+Search and Filters: Search for properties by location,filter houses for rent or for sell.
+Technologies Used
+React.js: Frontend framework for building the user interface.
+HTML/CSS: Markup and styling of web pages.
+JavaScript: Backend interactions and functionalities.
+React Router: Navigation and routing within the application.
+Fetch: HTTP client for making API requests.
+JWT Authentication: Secure authentication handling.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Access the application on http://localhost:3000.
+Usage
+User Login: Register or login to access property listings.
+Property Search: Browse properties based on location, type, etc.
+Admin Dashboard: Add new properties to the platform, system statistics.

@@ -1,0 +1,60 @@
+.house__homepage{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(247, 247, 250);
+
+}
+.navbar{
+    background-color:rgb(0, 0, 29);
+    padding: 10px;
+}
+.navbar__logo img{
+    width: 70%;
+    margin-left: 3rem;
+}
+.nav__icon{
+    color: white;
+    width:80px;
+    font-size: 4.5rem;
+    width: 20px;
+    margin-right: 3rem;
+}
+.houses__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 30rem;
+}
+.inputs{
+    margin-right: 10rem;
+    padding: 0.8rem 3rem;
+    text-align: center;
+}
+.header__btn{
+    background-color: rgb(0, 0, 43);
+    color: white;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 20px;
+    margin: 1.2rem;
+}
+.houses__container{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    margin-top:5px;
+    height: 100vh;
+    margin-left: 3rem;
+}
+.houses__card{
+    width: 330px;
+    height: 330px;
+}
+.pagination{
+    padding-top: 3rem;
+    margin-top: 3rem;
+    margin-left: 30rem;
+}

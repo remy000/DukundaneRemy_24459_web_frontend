@@ -1,0 +1,32 @@
+.unauth__home{
+    margin-top: 7rem;
+    margin-left: 20rem;
+}
+.unauth__header{
+    font-size: 5rem;
+    color: gray;
+    line-height: 100px;
+    margin-bottom: 2rem;
+ margin-left: 18rem;
+}
+.unauth__h3{
+ font-size: 3rem;
+ line-height: 50px;
+ font-weight: bold;
+ text-align: start;
+ margin-bottom: 3rem;
+}
+.unauth__link{
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+.unauth__h4{
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: bold;
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,88 @@
+.static__homepage{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'poppins', sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.static__header{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    color: rgb(0, 0, 29);
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.static__graphs{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+
+}
+.static__graph{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(248, 247, 247);
+    border-radius: 20px;
+}
+.graph__1{
+    background-color: rgb(140, 199, 255);
+    display: flex;
+    flex-direction: column;
+}
+.graph__2{
+    background-color: rgb(248, 183, 123);
+    display: flex;
+    flex-direction: column;
+}
+.graph__3{
+    background-color: rgb(255, 146, 255);
+    display: flex;
+    flex-direction: column;
+}
+.graph__p{
+    font-size: 1rem;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.graph__header{
+    font-size: 4rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.graph__icons{
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1.3rem;
+    
+}
+.graph__icon{
+    display: flex;
+    flex-direction: column;
+    
+}
+.static__home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.table__columns{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.chart-container {
+    width: 400px; 
+    height: 300px; 
+    margin: 20px auto;
+  }

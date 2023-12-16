@@ -1,0 +1,89 @@
+.home__page{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.home__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 5rem;
+}
+.navbar__logo{
+    width:100px;
+}
+.navbar__logo img{
+    width: 90%;
+    border-radius: 50%;
+}
+.navbar__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4rem;
+}
+.nav__link{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1.5rem 1rem;
+    list-style: none;
+}
+.nav__link a{
+    color: white;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 1rem;
+}
+.home__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+    color: white;
+
+}
+.home__content h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'poppins',sans-serif;
+    line-height: 50px;
+}
+.home__content p{
+    font-weight: 80px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    line-height: 30px;
+    overflow: hidden; /* Hide overflow to simulate typing effect */
+  white-space: nowrap; /* Keep text in a single line */
+  animation: typing 6s steps(50) infinite; 
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 90% }
+}
+.home__content button{
+    margin-top: 2rem;
+    background-color: white;
+    color:rgb(0, 0, 43);
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+.home__content button:hover{
+    background-color:rgb(0, 0, 43);
+    color:white;
+    scale: 1.1;
+    transition: 1s ease;
+}

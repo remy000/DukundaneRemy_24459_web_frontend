@@ -1,0 +1,123 @@
+.login__home{
+    background-color: rgb(0, 0, 29);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+}
+.login__card{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+    margin-top: 5rem;
+    margin-left:  15rem;
+    height: 80vh;
+    width: 60%;
+}
+.login__images{
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+.login__images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.login__p{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    margin-top: 13rem;
+    margin-left: 7rem;
+    font-weight: 20px;
+}
+.login__icons{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 24rem;
+    margin-left: 6rem;
+}
+.icon__login{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.login__p:hover{
+    scale:1.1;
+    transition: 1s ease;
+}
+.login__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 0;
+    width: 70%;
+    height: 90%;
+}
+.login__header{
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 20px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    color:rgb(0, 0, 19);
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 2rem;
+}
+.login__input{
+    padding: 0.8rem;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+    border-radius: 20px;
+    border:0.2px solid rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
+}
+.login__label{
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    padding: 0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.3rem;
+    color: gray;
+}
+.login__link{
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-top: 0.7rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+}
+.login__links{
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.login__links:visited, .login__link:visited{
+    color:blue;
+
+}
