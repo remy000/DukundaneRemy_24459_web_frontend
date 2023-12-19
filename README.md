@@ -7,14 +7,14 @@ also he can filter houses based on what house he want either houses for sale or 
 for Admin side, an admin when he logs in he will see an admin dashboard including statistics with different statistics graphs like piechart and histogram also total number of houses,users and bookings made by users
 also he will have user interface for adding new houses,update and delete houses and display all houses also same for users and booking. a reminder this is frontend codes as i have backend on other side which works with 
 frontend to perform full functionality of this app
+
 Project Requirements
+
 •	House Listing: Admins can create, read, update, and delete house listings.
 •	User Bookings: Users can view available houses and book them.
 •	Admin House Management: Admins can view booked houses and cancel bookings.
 •	User Authentication: Users and admins can log in and log out.
 Project Plan
-
-Project Name: RealEstate
 
 Project Scope:
 
